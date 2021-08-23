@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: Evan Loiterman.
+Site: evanloiterman@gmail.com
+
+Location: Skokie,IL
+
+/* THANKS */
+Name: microtrain.net
+S
+/* SITE */
+Last update: 2021/08/23
+Standards: HTML5, CSS3S
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development
