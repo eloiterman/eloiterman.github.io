@@ -14,9 +14,10 @@
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
-        <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
 
+    
         <link href="./dist/css/main.min.css" type="text/css" rel="stylesheet">
 
 
@@ -26,9 +27,31 @@
      <!--<h1>I'm Evan</h1>-->
     
      <header>
-        <span class="logo">My WebSite</span>
-        <a id="toggleMenu">Menu<a>
+     <!-- <span class="logo">My WebSite</span>
+        <a id="toggleMenu">Menu<a> -->
 
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="favicon.ico"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>
+           
+              </ul>
+            </div>
+          </nav>
+
+<!--
      <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -36,36 +59,36 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-
+    -->
       </header>
 
       <main>
-      <h2>HTML Global Attributes</h2>
+      <h2>Evan Loiterman</h2>
 
-     <p>HTML elements more commonly know as tags are bits of markup...</p>
+   
      <img class="avatar" src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar">
    
-     <p>Attributes bring your markup to life. Attributes allow for programming...</p>
-
+     <p>Waste no more time arguing about what a good man should be. Be one.
+      <br><i>-Marcus Aurelius</i>
+    </p>
      <br>
-     <h3>Event Handler Attributes</h3>
-     <p>Event Handler Attributes (UI Events) allow a user to interact...</p>
-     <p>Here a list of...</p>
+     <h3>Interests..</h3>
+   
+    
      <ul>
-         <li>My passion is drawing painting and Art history feed the soul </li>
-         <li>I am a Krav maga enthusiast -I like to hit stuff -dicipline thre body and mind</li>
-         <li>I code too -get to work solving problems -work smart not hard </li>
-         <li>Family first, then career, then personal interests but never forget the latter or I would be horrible at the first two</li>
-         <li>Amor Fati -Gam Zu Litova goes hand in hand -more on this later</li>
+         <li>My passion is drawing painting and Art history -feed the soul </li>
+         <li>I am a Krav maga enthusiast -I like to hit stuff -dicipline the body and mind</li>
+         <li>I code too  </li>
+         
+         <!--<li>Amor Fati -Gam Zu Litova goes hand in hand -words to live by</li>-->
          <li>Most recent book read: Thrawn Aliances -Timothy Zahn</li>
      </ul>
-    
+    <!--
      <h2>Summary</h2>
      <p></p>
-
+    -->
     </main>
-     <!--  <a href="resume.html">link to a resume page </a> -->
-
+    <!--
      <script>
 
         var toggleMenu = document.getElementById('toggleMenu');
@@ -80,7 +103,12 @@
             }
           }
         );
-      </script>
-  
+      </script>-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
+
     </body>
 </html>
