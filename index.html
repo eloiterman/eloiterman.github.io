@@ -3,8 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
        <title>Evan's page </title>
        <link rel="author" href="humans.txt" />
        <meta name="description" content="Welome to Evan Loiterman's page">
@@ -16,12 +14,7 @@
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
-
-    
         <link href="./dist/css/main.min.css" type="text/css" rel="stylesheet">
-
-
-
     </head>
     <body>
      <!--<h1>I'm Evan</h1>-->
@@ -68,9 +61,10 @@
 
    
      <img class="avatar" src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar">
-   
-     <p>Waste no more time arguing about what a good man should be. Be one.
-      <br><i>-Marcus Aurelius</i>
+   <p>Random Qoute:</p>
+     <p id ="randomQoute">
+       <!--Waste no more time arguing about what a good man should be. Be one.
+      <br><i>-Marcus Aurelius</i> random quote here-->
     </p>
      <br>
      <h3>Interests..</h3>
@@ -148,6 +142,27 @@
           }
         );
       </script>-->
+<!--random quote -->
+      <script>
+           //array todo -add html formatting to strings or add respective subquote somehow
+            const quotes = [
+              'Waste no more time arguing about what a good man should be. Be one. -Marcus Aurelius',
+              'Those who dream by day are cognizant of many things which escape those who dream only by night. -Edgar Allen Poe',
+              'If one does not know to which port one is sailing, no wind is favorable  -Seneca',
+              'In order to be a realist, you must believe in miracles. -David Ben Gurion',
+              'The best way to know God is to love many things. -Vincent Van Gogh'
+            ]
+            //random
+           //function selectQuote (){
+                let randomNum =Math.floor(Math.random () * (quotes.length));
+            //}
+           // selectQuote();
+            //print
+            document.getElementById('randomQoute').innerHTML =quotes[randomNum];
+            
+
+      </script>
+    <!-- end random quote -->  
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
